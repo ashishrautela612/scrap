@@ -1,57 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Cardo", serif;
-    background-color: #eceaeb;
-    /* border: 1px solid red; */
-    text-decoration: none;
+@import url("https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cardo", serif;
+  /* background-color: #eceaeb; */
+  /* border: 1px solid red; */
+  text-decoration: none;
 }
-html,body{
-    width: 100%;
-    height: 100%;
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #eceaeb;
+  z-index: -1;
 }
-::-webkit-scrollbar{
-    display: none;
-}
-
-.container{
-    width: 100%;
-}
-
-.navBar{
-    padding: 5% 8% 0 8%;
-    position: fixed;
-    width: 100%;
-    border: none;
-}
-.navigation{
-    position: relative;
-    border: none;
+::-webkit-scrollbar {
+  display: none;
 }
 
-.navItems{
-display: inline-block;
-width: 57%;
-font-size: 19px;
-border: none;
-}
-#home{
-    font-weight: 900; 
-    color: black;
+.container {
+  width: 100%;
 }
 
-.navItem{
-    margin-right: 25px;
-    padding: 5px 18px;
-    transition: all 0.5s ease-in-out;
-    color: rgb(100, 93, 93);
-    border: none;
-}
- 
+.navBar {
+  padding: 5% 8% 0 8%;
+  position: fixed;
+  width: 100%;
+  border: none;
+  background-color: #eceaeb;
+  z-index: 2;
+  border-radius: 5px;
+  box-shadow: -2px 7px 5px -6px rgba(0, 0, 0, 0.61);
 
- 
+}
+.navigation {
+  position: relative;
+  border: none;
+}
+
+.navItems {
+  display: inline-block;
+  width: 57%;
+  font-size: 19px;
+  border: none;
+}
+#home {
+  font-weight: 900;
+  color: black;
+}
+
+.navItem {
+  margin-right: 25px;
+  padding: 5px 18px;
+  transition: all 0.5s ease-in-out;
+  color: rgb(100, 93, 93);
+  border: none;
+}
+
 /* .navItem:hover{
     background-color: black;
     color: white;
@@ -59,97 +65,157 @@ border: none;
     font-weight: 600;
     margin-right: 57px;
 } */
-#home:hover{
-    background-color: #2d2d2d;
-    color: white;
-    border-radius:22px;
+#home:hover {
+  background-color: #2d2d2d;
+  color: white;
+  border-radius: 22px;
 }
 .navItem:hover {
-    background-color: black;
-    color: white;
-    border-radius:22px;
-  }
-  
-.contactUs{
-    display: inline-block;
-    position: relative;
-    left: 26.3%;
-    border: 3px solid #2d2d2d;
-    border-radius: 7px;
-    background-color: white;
+  background-color: black;
+  color: white;
+  border-radius: 22px;
+}
+
+.contactUs {
+  display: inline-block;
+  position: relative;
+  left: 26%;
+  border: 3px solid #2d2d2d;
+  border-radius: 7px;
+  background-color: white;
+  margin-bottom: 5px;
 }
 .contactUsBtn {
-    padding: 6px 38px;
-    font-size: 19px;
-    font-weight: 900;
-    color: #2d2d2d;
-    border: none;
+  padding: 6px 38px;
+  font-size: 19px;
+  font-weight: 900;
+  color: #2d2d2d;
+  border: none;
+  cursor: pointer;
 }
 
-.LandingPage{
-width: 100%;
-padding: 13% 8% 5% 9%;
-background-image: url(../images/imageTwo.png),url(../images/imageThree.png);
-    background-position: left -20rem top 16rem ,right -1rem top 24rem;
-    background-repeat: no-repeat;
+.LandingPage {
+  width: 100%;
+  padding: 13% 8% 5% 9%;
+  background-image: url(../images/imageTwo.png), url(../images/imageThree.png);
+  background-position: left -20rem top 16rem, right -1rem top 24rem;
+  background-repeat: no-repeat;
 }
 
-.homeContainer{
+.homeContainer {
+  display: inline-block;
+  position: relative;
+}
+.mainDescription {
+  display: inline-block;
+  width: 50%;
+}
+
+.mainHeading {
+  display: inline-block;
+  font-size: 38px;
+  line-height: 75px;
+}
+
+.description {
+  display: inline-block;
+  font-size: 14px;
+  word-spacing: 0px;
+  padding-top: 17px;
+  width: 76%;
+  font-weight: bolder;
+}
+
+.reserveTicketBtn {
+  background-color: #2f2f2f;
+  color: white;
+  font-weight: bolder;
+  font-size: 17px;
+  border-radius: 6px;
+  padding: 9px 55px;
+  margin-top: 17px;
+  cursor: pointer;
+  border: none;
+}
+
+.space {
+  display: inline-block;
+}
+.displayImageContainer {
+  display: inline-block;
+  width: 49%;
+}
+
+.imageContainer {
+  display: inline-block;
+  width: 100%;
+}
+
+.imageContainer > img {
+  width: 100%;
+  height: 334px;
+  margin-top: 3px;
+}
+
+.memories {
+  width: 100%;
+  display: inline-block;
+  background-color: #1e1e1e;
+  padding-bottom: 97px;
+  background-image: url(../images/scribble_light_2.png);
+background-repeat: no-repeat;
+/* background-position: right -1rem top 24rem; */
+background-position: right -1rem top 12rem;
+}
+
+.momoriesLeft {
     display: inline-block;
-    position: relative;
+  width: 33%;
+  position: relative;
+  top: -17px;
 }
-.mainDescription{
+.momoriesLeft > img{
+    width: 87%;
+}
+.meomoriesMid {
     display: inline-block;
-    width: 50%;
-
+  width: 33%;
+  text-align: center;
+  color: white;
+  position: relative;
+    top: 51px;
 }
 
-.mainHeading{
+.memoriesRight {
     display: inline-block;
-    font-size: 38px;
-    line-height: 75px;
+  width: 33%;
+  /* background-image: url(../images/scribble_light_2.png); */
+}
+.meomoriesMid > h1{
+    font-size: 48px;
+    line-height: 0.9;
 }
 
-.description{
-    display: inline-block;
-    font-size: 14px;
-    word-spacing: 0px;
-    padding-top: 17px;
-    width: 76%;
-    font-weight: bolder;
-}
-
-.reserveTicketBtn{
-    background-color: #2f2f2f;
+.travelLogsBtn{
+    background-color: #1e1e1e;
     color: white;
-    font-weight: bolder;
-    font-size: 17px;
-    border-radius: 6px;
-    padding: 9px 55px;
+    border: 2px solid white;
     margin-top: 17px;
+    padding: 6px 34px;
+    border-radius: 5px;
 }
 
-.space{
-    display: inline-block;
+.travelLogsBtn > h3{
+    font-size: 18px;
 }
-.displayImageContainer{
-    display: inline-block;
-    width: 49%;
-}
-
-.imageContainer{
-    display: inline-block;
-    width: 100%;
-}
-
-.imageContainer > img{
-    width: 100%;
-    height: 334px;
-    margin-top: 3px;
-}
-
-.memories{
+.meomoriesMid > p{
+    /* padding-top: 10px; */
+    text-align: justify;
+    width: 88%;
+    margin: auto;
+    font-size: 14px;
+    text-align-last:center ;
+    margin-top: 17px;
 
 }
 
- 
