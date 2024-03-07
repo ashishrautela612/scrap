@@ -32,7 +32,6 @@ body {
   z-index: 2;
   border-radius: 5px;
   box-shadow: -2px 7px 5px -6px rgba(0, 0, 0, 0.61);
-
 }
 .navigation {
   position: relative;
@@ -163,101 +162,105 @@ body {
   background-color: #1e1e1e;
   padding-bottom: 97px;
   background-image: url(../images/scribble_light_2.png);
-background-repeat: no-repeat;
-/* background-position: right -1rem top 24rem; */
-background-position: right -4rem top 15rem;
+  background-repeat: no-repeat;
+  /* background-position: right -1rem top 24rem; */
+  background-position: right -4rem top 15rem;
 }
 
 .momoriesLeft {
-    display: inline-block;
+  display: inline-block;
   width: 33%;
   position: relative;
   top: -17px;
 }
-.momoriesLeft > img{
-    width: 87%;
+.momoriesLeft > img {
+  width: 87%;
 }
 .meomoriesMid {
-    display: inline-block;
+  display: inline-block;
   width: 33%;
   text-align: center;
   color: white;
   position: relative;
-    top: 51px;
+  top: 51px;
 }
 
 .memoriesRight {
-    display: inline-block;
+  display: inline-block;
   width: 33%;
   /* background-image: url(../images/scribble_light_2.png); */
 }
-.meomoriesMid > h1{
-    font-size: 48px;
-    line-height: 0.9;
+.meomoriesMid > h1 {
+  font-size: 48px;
+  line-height: 0.9;
 }
 
-.travelLogsBtn{
-    background-color: #1e1e1e;
-    color: white;
-    border: 2px solid white;
-    margin-top: 17px;
-    padding: 6px 34px;
-    border-radius: 5px;
+.travelLogsBtn {
+  background-color: #1e1e1e;
+  color: white;
+  border: 2px solid white;
+  margin-top: 17px;
+  padding: 6px 34px;
+  border-radius: 5px;
 }
 
-.travelLogsBtn > h3{
-    font-size: 18px;
+.travelLogsBtn > h3 {
+  font-size: 18px;
 }
-.meomoriesMid > p{
-    /* padding-top: 10px; */
-    text-align: justify;
-    width: 88%;
-    margin: auto;
-    font-size: 14px;
-    text-align-last:center ;
-    margin-top: 17px;
-}
-
-.travelsContainer{
-    width: 100%;
-    background-image: url(../images/scribble_dark_6.png),url(../images/scribble_dark_5.png);
-    background-repeat: no-repeat;
-    background-position: left 0px top -4rem, right 0px top 20rem;
-    margin-top: 7%;
-    background-size: 2rem 47rem, 4rem 28rem;
+.meomoriesMid > p {
+  /* padding-top: 10px; */
+  text-align: justify;
+  width: 88%;
+  margin: auto;
+  font-size: 14px;
+  text-align-last: center;
+  margin-top: 17px;
 }
 
-.travels{
+.travelsContainer {
+  width: 100%;
+  background-image: url(../images/scribble_dark_6.png),
+    url(../images/scribble_dark_5.png);
+  background-repeat: no-repeat;
+  background-position: left 0px top -4rem, right 0px top 20rem;
+  margin-top: 7%;
+  background-size: 2rem 47rem, 4rem 28rem;
+}
+
+.travels {
   padding: 8% 8% 5% 9%;
 }
 
-.travel{
-    display: inline-block;
-    width: 31%;
+.travel {
+  display: inline-block;
+  width: 31%;
+  box-shadow: -2px 7px 5px -6px rgba(0, 0, 0, 0.61);
+  padding-bottom: 10px;
+
 }
-#travel1{
-    margin-right: 3%;
+#travel1 {
+  margin-right: 3%;
 }
-#travel2{
-    margin-right: 3%;
+#travel2 {
+  margin-right: 3%;
 }
 
-.travelImageContainer{
-    width: 100%;
-    margin-bottom: 27px;
+.travelImageContainer {
+  width: 100%;
+  margin-bottom: 27px;
 }
 
-.travelImageContainer > img{
-    width: 100%;
+.travelImageContainer > img {
+  width: 100%;
 }
 
-.travelTitle{
-    width: 83%;
-    line-height: 1;
-    margin-bottom: 27px;
+.travelTitle {
+  width: 83%;
+  line-height: 1;
+  margin-bottom: 27px;
 }
 
-.barLine{
+.barLine {
   height: 4px;
   background-color: black;
   width: 20%;
@@ -265,14 +268,159 @@ background-position: right -4rem top 15rem;
   margin-bottom: 20px;
 }
 
-.travelDescription{
+.travelDescription {
   line-height: 1.3;
-    text-align: justify;
-    font-size: 13px;
-    font-weight: bold;
+  text-align: justify;
+  font-size: 13px;
+  font-weight: bold;
 }
 
-.visitPlaces{
+.visitOuter{
+  width: 100%;
+  background-image: url(../images/scribble_dark_4.png),url(../images/scribble_lightest.png);
+  background-repeat: no-repeat;
+  background-position: left 21rem top 34rem, right 0px top 2rem;
+  background-size: 15rem 5rem, 16rem 44rem;
+  padding-bottom: 50px;
+}
+.visitPlaces {
   width: 82.6%;
   margin: auto;
+  /* margin-top: 18%; */
+  padding-top: 18%;
+ 
+}
+
+.seeNewplaces {
+  width: 39.5%;
+  margin: auto;
+}
+
+.icon {
+  width: 0%;
+  margin: auto;
+  margin-bottom: 45px;
+}
+
+.phrase > h1 {
+  font-size: 62px;
+}
+
+.phrase {
+  width: 119%;
+  margin: auto;
+  line-height: 1.1;
+  margin-bottom: 40px;
+}
+
+.phrase span {
+  font-style: oblique;
+  text-decoration: underline;
+  font-size: 77px;
+}
+.icon > img {
+  height: 44px;
+}
+
+.phraseDesc{
+  font-weight: bolder;
+  font-size: 15px;
+  width: 119%;
+  margin: auto;
+  padding-left: 41px;
+  transition: all 50s ease-in-out;
+}
+.travels .travel:hover{
+  transform: translateY(-10px)
+}
+
+.featuredPlaceContainer{
+  margin-top: 140PX;
+ 
+
+}
+.leftFeatureContainer{
+display: inline-block;
+width: 42%;
+position: relative;
+margin-right: 43px;
+}
+/* .leftFeatureContainer > img{
+  position: relative;
+    bottom: -7%;
+    bottom: 501px;
+    right: 35px;
+} */
+
+.leftFeatureContainerImage{
+  display: inline-block;
+  width: 100%;
+
+}
+.leftFeatureContainerImage > img{
+  width: 100%;
+}
+.rightFeatureContainer{
+  display: inline-block;
+  width: 44%;
+position: absolute;
+/* bottom: 272px; */
+}
+
+.rightFeatureContainerImage{
+  display: inline-block;
+  margin-bottom: 25px;
+
+}
+.rightFeatureContainerImage > img{
+  width: 300px;
+}
+.rightFeatureContainerText{
+  display: inline-block;
+
+}
+
+.rightFeatureContainerBold{
+  display: inline-block;
+  width: 49%;
+  line-height: 1.5;
+
+}
+
+.rightFeatureContainerBold > h1{
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.rightFeatureContainerNormalText{
+  display: inline-block;
+  width: 49%;
+}
+
+.rightFeatureContainerNormalText > div{
+  display: inline-block;
+    font-size: 14px;
+    font-weight: 900;
+}
+.arrow img{
+  width: 133px;
+  position: relative;
+  left: 426px;
+  height: 104px;
+}
+.leftFeatureContainer > img {
+    position: absolute;
+    /* bottom: -7%; */
+    /* z-index: 2; */
+    /* bottom: 501px; */
+    /* right: 35px; */
+    left: -30px;
+    /* top: 9px; */
+    /* top: -5px; */
+    /* bottom: 10px; */
+    margin-top: 151px;
+}
+
+.travelLocation{
+
 }
