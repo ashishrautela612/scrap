@@ -8,6 +8,10 @@
   /* border: 1px solid red; */
   text-decoration: none;
 }
+
+button{
+  cursor: pointer;
+}
 html,
 body {
   width: 100%;
@@ -236,7 +240,6 @@ body {
   width: 31%;
   box-shadow: -2px 7px 5px -6px rgba(0, 0, 0, 0.61);
   padding-bottom: 10px;
-
 }
 #travel1 {
   margin-right: 3%;
@@ -275,9 +278,10 @@ body {
   font-weight: bold;
 }
 
-.visitOuter{
+.visitOuter {
   width: 100%;
-  background-image: url(../images/scribble_dark_4.png),url(../images/scribble_lightest.png);
+  background-image: url(../images/scribble_dark_4.png),
+    url(../images/scribble_lightest.png);
   background-repeat: no-repeat;
   background-position: left 21rem top 34rem, right 0px top 2rem;
   background-size: 15rem 5rem, 16rem 44rem;
@@ -288,7 +292,6 @@ body {
   margin: auto;
   /* margin-top: 18%; */
   padding-top: 18%;
- 
 }
 
 .seeNewplaces {
@@ -322,7 +325,7 @@ body {
   height: 44px;
 }
 
-.phraseDesc{
+.phraseDesc {
   font-weight: bolder;
   font-size: 15px;
   width: 119%;
@@ -330,20 +333,18 @@ body {
   padding-left: 41px;
   transition: all 50s ease-in-out;
 }
-.travels .travel:hover{
-  transform: translateY(-10px)
+.travels .travel:hover {
+  transform: translateY(-10px);
 }
 
-.featuredPlaceContainer{
-  margin-top: 140PX;
- 
-
+.featuredPlaceContainer {
+  margin-top: 140px;
 }
-.leftFeatureContainer{
-display: inline-block;
-width: 42%;
-position: relative;
-margin-right: 43px;
+.leftFeatureContainer {
+  display: inline-block;
+  width: 42%;
+  position: relative;
+  margin-right: 43px;
 }
 /* .leftFeatureContainer > img{
   position: relative;
@@ -352,75 +353,366 @@ margin-right: 43px;
     right: 35px;
 } */
 
-.leftFeatureContainerImage{
+.leftFeatureContainerImage {
   display: inline-block;
   width: 100%;
-
 }
-.leftFeatureContainerImage > img{
+.leftFeatureContainerImage > img {
   width: 100%;
 }
-.rightFeatureContainer{
+.rightFeatureContainer {
   display: inline-block;
   width: 44%;
-position: absolute;
-/* bottom: 272px; */
+  position: absolute;
+  /* bottom: 272px; */
 }
 
-.rightFeatureContainerImage{
+.rightFeatureContainerImage {
   display: inline-block;
   margin-bottom: 25px;
-
 }
-.rightFeatureContainerImage > img{
+.rightFeatureContainerImage > img {
   width: 300px;
 }
-.rightFeatureContainerText{
+.rightFeatureContainerText {
   display: inline-block;
-
 }
 
-.rightFeatureContainerBold{
+.rightFeatureContainerBold {
   display: inline-block;
   width: 49%;
   line-height: 1.5;
-
 }
 
-.rightFeatureContainerBold > h1{
+.rightFeatureContainerBold > h1 {
   text-decoration: underline;
   font-weight: bolder;
 }
 
-.rightFeatureContainerNormalText{
+.rightFeatureContainerNormalText {
   display: inline-block;
   width: 49%;
 }
 
-.rightFeatureContainerNormalText > div{
+.rightFeatureContainerNormalText > div {
   display: inline-block;
-    font-size: 14px;
-    font-weight: 900;
+  font-size: 14px;
+  font-weight: 900;
 }
-.arrow img{
+.arrow img {
   width: 133px;
   position: relative;
   left: 426px;
   height: 104px;
 }
 .leftFeatureContainer > img {
-    position: absolute;
-    /* bottom: -7%; */
-    /* z-index: 2; */
-    /* bottom: 501px; */
-    /* right: 35px; */
-    left: -30px;
-    /* top: 9px; */
-    /* top: -5px; */
-    /* bottom: 10px; */
-    margin-top: 151px;
+  position: absolute;
+  /* bottom: -7%; */
+  /* z-index: 2; */
+  /* bottom: 501px; */
+  /* right: 35px; */
+  left: -30px;
+  /* top: 9px; */
+  /* top: -5px; */
+  /* bottom: 10px; */
+  margin-top: 151px;
+  height: 175px;
 }
 
-.travelLocation{
+.travelLocation {
+  width: 100%;
+  background-color: #1e1e1e;
+  padding-bottom: 25px;
+  background-image: url(../images//scribble_light.png);
+  background-repeat: no-repeat;
+  background-position: left -1rem bottom -1rem;
+  background-size: 26rem 6rem;
+}
 
+.travelll {
+  width: 91%;
+  margin-left: auto;
+  padding-top: 90px;
+}
+
+.travelLeft {
+  display: inline-block;
+  width: 33%;
+  margin-right: 85px;
+  color: white;
+}
+
+.travelRightContainer {
+  display: inline-block;
+  width: 59%;
+}
+
+.travelRightImageContainer {
+  width: 100%;
+}
+
+.travelRightImageContainer > img {
+  width: 100%;
+}
+
+.travelheading {
+  font-size: 23px;
+  color: white;
+  line-height: 1.1;
+  font-weight: bolder;
+  margin-bottom: 129px;
+}
+
+.travellDescription {
+  margin-bottom: 54px;
+}
+.travellDescription > h2 {
+  margin-bottom: 10px;
+}
+
+.travellDescription > p {
+  line-height: 1;
+}
+
+.fAQ {
+  width: 82%;
+  margin: auto;
+}
+
+.fAQcontainer {
+  padding: 100px 0 140px 0;
+}
+
+.faqLeft {
+  display: inline-block;
+  width: 60%;
+  margin-right: 5%;
+}
+
+.faqRight {
+  display: inline-block;
+  width: 34%;
+  position: relative;
+  top: 20px;
+}
+
+/* .faqImageContainer {
+  width: 100%;
+} */
+
+.faqRight > img {
+  width: 100%;
+}
+
+.faqLeft > h1 {
+  font-size: 69px;
+  font-weight: bolder;
+  line-height: 1;
+  margin-bottom: 100px;
+}
+
+/* .faqLeft > div {
+  padding: 10px 10px;
+}
+
+.faqLeft > div > span {
+  font-size: 13px;
+  font-weight: 600;
+} */
+
+
+.aboutUs {
+  width: 100%;
+  padding-bottom: 5%;
+  background-image: url(../images/scribble_dark_2.png), url(../images/scribble_dark_3.png);
+  background-repeat: no-repeat;
+  background-position: left 0rem top 7rem, right 0rem bottom 4rem;
+  background-size: 18rem 8rem, 23rem 6rem;
+  /* background-size: left 10rem 10rem; */
+  padding-top: 10%;
+  padding-bottom: 13%;
+}
+
+
+.aboutSection {
+  /* display: inline-block; */
+  width: 82%;
+  margin: auto;
+}
+
+.feedBackHeading {
+  width: 55%;
+  margin: auto;
+  text-align: center;
+  line-height: 1;
+}
+.feedBackHeading > h1{
+  font-size: 66px;
+}
+.feedBackCardContainer{
+  /* display: inline-block; */
+}
+
+.card {
+  display: inline-block;
+  width: 32%;
+  border: 2px solid black;
+  text-align: center;
+  margin-top: 7%;
+  border-radius: 12px;
+  padding-bottom: 4%;
+}
+
+.cardIconContainer{
+  width: 33%;
+  margin: auto;
+  padding-top: 18%;
+}
+.iconContainer{
+  width: 100%;
+}
+
+.iconContainer > img {
+  width: 100%;
+}
+
+#firstCard,#secondCard{
+  margin-right:16px;
+}
+#firstCard{
+  position: relative;
+}
+
+.line{
+  font-size: 13px;
+  padding: 8px 0px 8px 18px;
+}
+#line1{
+  border-top: 2px solid black;
+}
+
+#line2{
+  border-top: 2px solid black;
+  
+}
+
+#line3{
+  border-top: 2px solid black;
+  
+}
+
+#line4{
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  
+}
+
+.plus {
+  font-size: 31px;
+  padding-left: 96px;
+  position: relative;
+  top: 7px;
+  cursor: pointer;
+  transition: all 2s ease-in-out;
+}
+
+.plus:hover {
+  transform: rotate(45deg);
+}
+
+.customerName{
+  margin-top: 30px;
+  font-weight: bolder;
+  font-size: large;
+}
+
+.customerDescription{
+  margin-top: 20px;
+  font-size: 13px;
+  padding: 0 5%;
+  padding-bottom: 2%;
+  font-weight: 600;
+  text-align-last: center;
+
+}
+
+
+.rightArrow{
+  position: absolute;
+  top: 147px;
+  left: -23px;
+  left: -41px;
+  border: 2px solid black;
+  padding: 0px 13px;
+  border-radius: 8px;
+  font-size: 47px;
+  background-color: #eceaeb;
+}
+#thirdCard{
+position: relative;
+}
+.leftArrow{
+  position: absolute;
+  top: 147px;
+  right: -41px;
+  border: 2px solid black;
+  padding: 0px 13px;
+  border-radius: 8px;
+  font-size: 47px;
+  background-color: #eceaeb;
+}
+
+.contactForm{
+  padding: 0% 8% 0 9%;
+}
+
+.form{
+display: inline-block;
+width: 45%;
+vertical-align: top;
+
+}
+.form > h1{
+font-size: 64px;
+width: 75%;
+margin-bottom: 30px;
+font-weight: bolder;
+}
+
+.feedBackForm{
+  display: inline-block;
+}
+
+.feedBackForm > input,textarea{
+  width: 75%;
+} 
+textarea{
+  resize: none;
+  margin-bottom: 40px;
+  padding: 10px 0px 10px 10px;
+  
+}
+.formSideImage{
+width: 50%;
+display: inline-block;
+}
+
+.formSideImage > img {
+  width: 100%;
+}
+
+input{
+  padding: 10px 0px 10px 10px;
+}
+
+input[type="text"] {
+  margin-bottom: 25px;
+}
+input,textarea{
+  border :2px solid black;
+  border-radius: 5px;
+  font-size: 17px;
+}
+input[type="submit"]{
+  background-color:"#2f2f2f";
 }
